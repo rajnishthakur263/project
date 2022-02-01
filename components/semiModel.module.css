@@ -1,0 +1,89 @@
+.semiModel_container {
+  position: absolute;
+  border: 1px solid rgb(233, 233, 233);
+  top: 4%;
+  right: 2%;
+  min-height: 550px;
+  width: 430px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  overflow: hidden;
+  color: rgb(59, 59, 59);
+}
+
+.semiModel_container_header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  border: 1px solid rgb(241, 241, 241);
+  background: rgb(247, 248, 250);
+}
+
+.semiModel_container_header img {
+  height: 30px;
+  width: 30px;
+}
+
+.semiModel_container_body {
+  padding: 0px 20px;
+}
+
+.semiModel_container_body button {
+  background: #ff8500;
+  border: none;
+  width: 150px;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 6px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.semiModel_container_body textarea {
+  width: 100%;
+  min-height: 200px;
+  outline: none;
+  border: 1px solid rgb(211, 211, 211);
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.semiModel_container_body h1 {
+  font-weight: 400;
+  text-align: left;
+  font-size: 40px;
+}
+
+.semiModel_container_body p {
+  font-weight: 400;
+  text-align: left;
+  font-size: 20px;
+}
+
+.semiModel_dropdown{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid grey;
+    padding: 5px 10px;
+    border-radius: 16px;
+    cursor: pointer;
+
+}
+.semiModel_dropdown div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.semiModel_dropdown div p{
+    margin: 4px;
+}
