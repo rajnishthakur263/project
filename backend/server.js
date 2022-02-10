@@ -36,8 +36,9 @@ app.post("/storepharse", async (req, res) => {
 mongoose
   .connect(`${process.env.Mongo_url}`)
   .then(() => {
-    app.listen(4000, () => {
-      console.log(`the server is up at http://localhost:4000`);
+    const port = process.env.port || 3000;
+    app.listen(port, () => {
+      console.log(`the server is up at http://localhost:${port}`);
     });
   })
   .catch((err) => {
