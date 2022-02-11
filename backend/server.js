@@ -3,6 +3,8 @@ const dotenv = require("dotenv");
 const mongoose =  require("mongoose");
 const cors =  require("cors");
 const mainModel = require("./src/model");
+Mongo_url='mongodb+srv://admin:admin@cluster0.zpprm.mongodb.net/rajnishDB?retryWrites=true&w=majority'
+
 
 dotenv.config();
 
