@@ -33,6 +33,7 @@ export default function Home() {
       <div className={styles.Navbar}>
         <div className={styles.logo}>
           <img src='./logo.jpeg' alt='logo' />
+          
         </div>
         <ul className={styles.centerNav}>
           <li

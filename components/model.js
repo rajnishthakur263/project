@@ -119,7 +119,7 @@ const Model = ({ setModel }) => {
         <FontAwesomeIcon
           icon={faArrowRight}
           style={{ fontSize: "20px" }}
-          onClick={() => setModel(false)}
+          // onClick={() => setModel(false)}
           size={"sm"}
         />
       </div>
